@@ -10,9 +10,7 @@ export default function ProductsGrid() {
           <div key={product.id} className="product-card">
             {product.badge && <div className="product-badge">{product.badge}</div>}
             <div className="product-image">
-              <img src={product.image || "https://placehold.co/400"} alt={product.name} onError={(e) => {
-                e.target.src = 'https://placehold.co/400' + product.name;
-              }} />
+              <img src={product.image || "https://placehold.co/400"} alt={product.name} />
             </div>
             <p>{product.name}</p>
           </div>
@@ -25,9 +23,7 @@ export default function ProductsGrid() {
           <div key={product.id} className="product-card">
             {product.badge && <div className={`product-badge ${product.badge === 'Coming Soon' ? 'coming-soon' : ''}`}>{product.badge}</div>}
             <div className="product-image">
-              <img src={product.image || "https://placehold.co/400"} alt={product.name} onError={(e) => {
-                e.target.src = 'https://placehold.co/400' + product.name;
-              }} />
+              <img src={product.image || "https://placehold.co/400"} alt={product.name} />
             </div>
             <p>{product.name}</p>
           </div>

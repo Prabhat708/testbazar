@@ -34,40 +34,40 @@ export const loansAndCards = [
 ];
 
 export const creditProducts = [
-  { id: 1, name: 'Credit Score', image: '/credit-score.png', badge: null },
-  { id: 2, name: 'Credit Health Report', image: '/credit-health.png', badge: null },
-  { id: 3, name: 'PB Money', image: '/pb-money.png', badge: null },
-  { id: 4, name: 'Credit Card Bill', image: '/cc-bill.png', badge: null },
-  { id: 5, name: 'Loan Repayment', image: '/loan-repayment.png', badge: null },
-  { id: 6, name: 'Mobile Recharge', image: '/mobile-recharge.png', badge: 'Coming Soon' },
-  { id: 7, name: 'Electricity Bill Payment', image: '/electricity.png', badge: 'Coming Soon' },
-  { id: 8, name: 'Bill Payments', image: '/bill-payments.png', badge: null },
+  { id: 1, name: 'Credit Score', image: '/creditScoreTile.png', badge: null },
+  { id: 2, name: 'Credit Health Report', image: '/creditScoreTile.png', badge: null },
+  { id: 3, name: 'PB Money', image: '/creditScoreTile.png', badge: null },
+  { id: 4, name: 'Credit Card Bill', image: '/creditScoreTile.png', badge: null },
+  { id: 5, name: 'Loan Repayment', image: '/creditScoreTile.png', badge: null },
+  { id: 6, name: 'Mobile Recharge', image: '/creditScoreTile.png', badge: 'Coming Soon' },
+  { id: 7, name: 'Electricity Bill Payment', image: '/creditScoreTile.png', badge: 'Coming Soon' },
+  { id: 8, name: 'Bill Payments', image: '/creditScoreTile.png', badge: null },
 ];
 
 export const investmentProducts = [
-  { id: 1, name: 'Bonds', image: '/bonds.png', badge: 'Invest & Earn' },
-  { id: 2, name: 'Fixed Deposits', image: '/fd.png', badge: 'Newly Launched' },
-  { id: 3, name: 'Market Linked Plans', image: '/mlp.png', badge: null },
-  { id: 4, name: 'National Pension Scheme', image: '/nps.png', badge: null },
-  { id: 5, name: 'Health Insurance', image: '/health.png', badge: '0% GST' },
-  { id: 6, name: 'Term Life Insurance', image: '/term-life.png', badge: '0% GST' },
-  { id: 7, name: 'Car Insurance', image: '/car-insurance.png', badge: 'Lowest Price' },
-  { id: 8, name: 'All Insurance Products', image: '/all-insurance.png', badge: null },
+  { id: 1, name: 'Bonds', image: '/download.webp', badge: 'Invest & Earn' },
+  { id: 2, name: 'Fixed Deposits', image: '/download.webp', badge: 'Newly Launched' },
+  { id: 3, name: 'Market Linked Plans', image: '/download.webp', badge: null },
+  { id: 4, name: 'National Pension Scheme', image: '/download.webp', badge: null },
+  { id: 5, name: 'Health Insurance', image: '/download.webp', badge: '0% GST' },
+  { id: 6, name: 'Term Life Insurance', image: '/download.webp', badge: '0% GST' },
+  { id: 7, name: 'Car Insurance', image: '/download.webp', badge: 'Lowest Price' },
+  { id: 8, name: 'All Insurance Products', image: '/download.webp', badge: null },
 ];
 
 export const partners = [
-  { id: 1, name: 'American Express', logo: '/american-express.png', category: 'credit-card' },
-  { id: 2, name: 'Axis Bank', logo: '/axis-bank.png', category: 'all' },
-  { id: 3, name: 'CASH', logo: '/cash.png', category: 'unsecured-loans' },
-  { id: 4, name: 'CIBIL', logo: '/cibil.png', category: 'credit-bureau' },
-  { id: 5, name: 'CLX', logo: '/clx.png', category: 'credit-improvement' },
-  { id: 6, name: 'ORG', logo: '/org.png', category: 'all' },
-  { id: 7, name: 'EFL', logo: '/efl.png', category: 'all' },
-  { id: 8, name: 'EarlySalary', logo: '/earlysalary.png', category: 'unsecured-loans' },
-  { id: 9, name: 'Equifax', logo: '/equifax.png', category: 'credit-bureau' },
-  { id: 10, name: 'Experian', logo: '/experian.png', category: 'credit-bureau' },
-  { id: 11, name: 'Federal Bank', logo: '/federal-bank.png', category: 'all' },
-  { id: 12, name: 'Flex Loans', logo: '/flex-loans.png', category: 'unsecured-loans' },
+  { id: 1, name: 'American Express', logo: '/bank.png', category: 'credit-card' },
+  { id: 2, name: 'Axis Bank', logo: '/bank.png', category: 'all' },
+  { id: 3, name: 'CASH', logo: '/bank.png', category: 'unsecured-loans' },
+  { id: 4, name: 'CIBIL', logo: '/bank.png', category: 'credit-bureau' },
+  { id: 5, name: 'CLX', logo: '/bank.png', category: 'credit-improvement' },
+  { id: 6, name: 'ORG', logo: '/bank.png', category: 'all' },
+  { id: 7, name: 'EFL', logo: '/bank.png', category: 'all' },
+  { id: 8, name: 'EarlySalary', logo: '/bank.png', category: 'unsecured-loans' },
+  { id: 9, name: 'Equifax', logo: '/bank.png', category: 'credit-bureau' },
+  { id: 10, name: 'Experian', logo: '/bank.png', category: 'credit-bureau' },
+  { id: 11, name: 'Federal Bank', logo: '/bank.png', category: 'all' },
+  { id: 12, name: 'Flex Loans', logo: '/bank.png', category: 'unsecured-loans' },
 ];
 
 export const features = [

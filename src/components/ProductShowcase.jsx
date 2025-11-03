@@ -10,7 +10,7 @@ export default function ProductShowcase() {
         '1.5% Cashback on all Other Spends',
         'First Year Free'
       ],
-      image: '/credit-card-1.png',
+      image: '/paisasave-card.png',
       link: 'Know More'
     },
     {
@@ -21,7 +21,7 @@ export default function ProductShowcase() {
         'Credit Card + Cash**',
         '100% Digital Process'
       ],
-      image: '/credit-card-2.png',
+      image: '/duet-card.svg',
       link: 'Know More'
     }
   ];
